@@ -1,0 +1,526 @@
+@media screen and (max-width: 640px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    
+    nav {
+    
+        h1 {
+            height: 65px;
+            font-family: Pacifico;
+            font-size: 40px;
+            color: rgb(255, 255, 255);
+        }
+    
+        .blockLine {
+            p {
+                font-size: 20px;
+                padding: 0% 1%;
+            }
+        }
+    }
+  
+    .profil {
+        height: 20vw;
+        margin: 0vw;
+    }
+    
+    .bockText {
+
+        p {
+            margin-top: 25px;
+            text-align: center;
+            font-size: 3vh;
+            color: rgb(60, 111, 178);
+        }
+    
+        div {
+
+            p {
+                font-size: 2vh;
+                text-align: start
+            }
+            img {
+                margin-top: 30px;
+                height: 30px;
+            }
+            .heightImg {
+                margin-top: 40px;
+                height: 20px;
+            }
+            span {
+                font-size: 2.4vh;
+                color: goldenrod;
+            }
+        }
+    }
+    
+    .listContact {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-e;
+        .contact {
+            font-size: 3vh;
+            color: white;
+            text-decoration: none;
+            color: whitesmoke;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            -webkit-transition: 0.4s ease-in-out;
+            transition: 0.4s ease-in-out;
+        }
+    
+        .contact:hover {
+            -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+        }
+    
+        .linkedin {
+            height: 18px;
+        }
+    }
+    
+    .blockContact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+        width: 70%;
+        border-radius: 10px;
+        margin-top: 10px;
+    
+        p {
+            text-align: center;
+            color: white;
+            font-size: 2vh;
+            height: 40px;
+        }
+    
+        .line {
+            height: 0px;
+            width: 100%;
+            border: solid rgb(255, 255, 255) 1px;
+            margin: 9px 0px;
+            border-radius: 50px;
+        }
+    
+        div {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            p {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                font-size: 10px;
+                width: 100%;
+            }
+            a {
+                height: 0%;
+                width: 0%;
+            }
+            img {
+                height: 50%;
+            }
+        }
+    }
+    
+    .competences {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 50px;
+        height: auto;
+        border-radius: 10px;
+        width: 100%;
+        ul {
+            padding: 3% 0%;
+            li {
+                font-size: 20px;
+                padding: 1% 0%;
+                color: rgb(60, 111, 178)
+            }
+        }
+        p {
+            font-size: 3vw;
+            color: rgb(60, 111, 178);
+        }
+    
+        .line {
+            height: 0px;
+            width: 60%;
+            border: solid rgb(60, 111, 178)1px;
+            margin: 9px 0px;
+            border-radius: 50px;
+        }
+    
+        img {
+            height: 50px;
+    
+        }
+    
+        .infoBulle {
+            height: 10px
+        }
+    
+        div {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-evenly;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            width: 90%;
+            margin: 5px;
+            border-radius: 10px;
+    
+            .boxCompetences {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                flex-wrap: wrap;
+                height: 100%;
+                p {
+                    font-size: 20px;
+                }
+                .line {
+                    width: 1px;
+                }
+                span {
+                    padding: 5% 0%;
+                }
+            }
+        }
+    }
+    
+    .project {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 80%;
+        margin-top: 50px;
+        border-radius: 10px;
+        border: solid rgba(255, 255, 255, 0.482) 5px;
+        background-attachment: fixed;
+        background-image: linear-gradient(45deg,
+                transparent 0%,
+                transparent 55%,
+                rgba(9, 78, 240, 0.463) 55%,
+                rgba(35, 72, 175, 0.404) 76%,
+                transparent 76%,
+                transparent 100%),
+            linear-gradient(135deg,
+                transparent 0%,
+                transparent 14%,
+                rgba(9, 201, 240, 0.627) 14%,
+                rgba(15, 136, 188, 0.485) 41%,
+                transparent 41%,
+                transparent 100%),
+            linear-gradient(45deg,
+                transparent 0%,
+                transparent 2%,
+                rgba(9, 36, 240, 0.346) 2%,
+                rgba(11, 79, 152, 0.337) 18%,
+                transparent 18%,
+                transparent 100%),
+            linear-gradient(135deg,
+                transparent 0%,
+                transparent 61%,
+                rgba(28, 108, 182, 0.491) 61%,
+                rgba(52, 54, 162, 0.697) 71%,
+                transparent 71%,
+                transparent 100%),
+            linear-gradient(90deg, rgba(62, 126, 203, 0.853), rgba(9, 171, 240, 0.597));
+    
+        p {
+            text-align: center;
+            width: 100%;
+            font-size: 3vw;
+            color: rgb(255, 255, 255);
+        }
+    
+        .line {
+            height: 0px;
+            width: 70%;
+            border: solid rgb(255, 255, 255)1px;
+            margin: 9px 0px;
+            border-radius: 50px;
+        }
+    
+        .blockProject {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            p{
+                font-size: 20px;
+                color: rgb(255, 255, 255);
+                background-color: rgba(255, 255, 255, 0.195);
+                padding: 2% 0%;
+            }
+            div {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 75%;
+    
+                img {
+                    height: 10vw;
+                    margin: 10px 0px;
+                }
+    
+                p {
+                    color: white;
+                    background-color: rgba(255, 255, 255, 0);
+                    margin-left: 10px;
+                    text-align: start;
+                    font-size: 1.5vw;
+                    width: 80%;
+                }
+                .marginText {
+                    margin-left: 3vw;
+                }
+                a{
+                    transition: 0.3s;
+                }
+                a:hover {
+                    filter: drop-shadow(0px 0px 10px white);
+                    transition: 0.3s;;
+                }
+            }
+        }
+    }
+    
+    /*-------------ParcoursProfessionelles-----------------------*/
+    .parcoursPro {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    
+        /*-------------ParcoursProfessionelles-----------------------*/
+        #formation4 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            font-size: 1.6vw;
+            color: rgb(60, 111, 178);
+            height: auto;
+            margin-top: 50px;
+    
+            .line {
+                height: 0px;
+                width: 50%;
+                border: solid rgb(60, 111, 178)1px;
+                margin: 9px 0px;
+                border-radius: 50px;
+            }
+        }
+    
+        .text22 {
+            opacity: 0%;
+            transition: 1s;
+            z-index: 2;
+        }
+    
+        .text22N {
+            opacity: 100%;
+            transition: 1s;
+            z-index: 2;
+        }
+    
+        .text17 {
+            opacity: 0%;
+            transition: 1s;
+            z-index: 2;
+        }
+    
+        .text17N {
+            opacity: 100%;
+            transition: 1s;
+            z-index: 2;
+        }
+    
+        .text15 {
+            opacity: 0%;
+            transition: 1s;
+            z-index: 2;
+        }
+    
+        .text15N {
+            opacity: 100%;
+            transition: 1s;
+            z-index: 2;
+        }
+    
+        .text13 {
+            opacity: 0%;
+            transition: 1s;
+            z-index: 2;
+        }
+    
+        .text13N {
+            opacity: 100%;
+            transition: 1s;
+            z-index: 2;
+        }
+    
+        .text11 {
+            opacity: 0%;
+            transition: 1s;
+            z-index: 2;
+        }
+    
+        .text11N {
+            opacity: 100%;
+            transition: 1s;
+            z-index: 2;
+        }
+    
+        .parcours {
+            display: flex;
+            align-items: flex-start;
+            margin: 30px;
+        }
+    
+        .ligne {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            z-index: 2;
+            height: 90%;
+            width: 5px;
+            background-color: #305179c3;
+            border: solid rgba(232, 213, 213, 0.437);
+        }
+    
+        .button {
+            margin: 20px;
+            font-size: 15px;
+            color: rgb(255, 255, 255);
+            height: 50px;
+            width: 140px;
+            border-radius: 10px;
+            border: none;
+            border: solid whitesmoke;
+            background-attachment: fixed;
+            background-image: linear-gradient(45deg,
+                    transparent 0%,
+                    transparent 55%,
+                    rgba(9, 78, 240, 0.463) 55%,
+                    rgba(35, 72, 175, 0.404) 76%,
+                    transparent 76%,
+                    transparent 100%),
+                linear-gradient(135deg,
+                    transparent 0%,
+                    transparent 14%,
+                    rgba(9, 201, 240, 0.627) 14%,
+                    rgba(15, 136, 188, 0.485) 41%,
+                    transparent 41%,
+                    transparent 100%),
+                linear-gradient(45deg,
+                    transparent 0%,
+                    transparent 2%,
+                    rgba(9, 36, 240, 0.346) 2%,
+                    rgba(11, 79, 152, 0.337) 18%,
+                    transparent 18%,
+                    transparent 100%),
+                linear-gradient(135deg,
+                    transparent 0%,
+                    transparent 61%,
+                    rgba(28, 108, 182, 0.491) 61%,
+                    rgba(52, 54, 162, 0.697) 71%,
+                    transparent 71%,
+                    transparent 100%),
+                linear-gradient(90deg, rgba(62, 126, 203, 0.853), rgba(9, 171, 240, 0.597));
+        }
+    
+        .buttonValide {
+            margin: 20px;
+            font-size: 15px;
+            height: 50px;
+            width: 140px;
+            border-radius: 10px;
+            border: solid rgb(40, 105, 166);
+            background-color: #ffffff8e;
+            color: rgb(39, 109, 171);
+        }
+    
+        .button:hover {
+            border: solid whitesmoke;
+            background-color: #305179c3;
+            color: whitesmoke;
+        }
+    
+        #emplois22,
+        #emplois17,
+        #emplois15,
+        #emplois13,
+        #emplois11 {
+            position: absolute;
+            margin: 80px;
+            color: rgb(25, 66, 119);
+            list-style: none;
+            .metier {
+                font-size: 1.6vw;
+            }
+            li {
+                margin: 5px 0px;
+            }
+        }
+    
+        .boiteParcour {
+            height: 450px;
+            width: 80%;
+            transition: 1.5s;
+        }
+    
+        .boiteParcour2 {
+            height: 500px;
+            width: 80%;
+            transition: 1s;
+        }
+    
+        .time {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            width: 100%;
+            height: 10px;
+        }
+    }
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100px;
+        width: 100%;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        background-attachment: fixed;
+    
+        p {
+            color: white;
+        }
+    }
+}
